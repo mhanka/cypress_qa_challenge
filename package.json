@@ -1,0 +1,22 @@
+{
+  "name": "shiftcare_qa_challenge",
+  "version": "1.0.0",
+  "description": "cypress_automation_demo_website",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhanka/cypress_qa_challenge.git"
+  },
+  "author": "mohan_krishna_kuppan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhanka/cypress_qa_challenge/issues"
+  },
+  "homepage": "https://github.com/mhanka/cypress_qa_challenge#readme",
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  }
+}

@@ -1,0 +1,47 @@
+Prerequisites:
+1. Visit URL https://www.demoblaze.com/ and check URL
+Test case1 ( Check whether modal button contains login ):
+   a. Visit URL
+   b. validate the text on login
+Expected output: 'login' text should be available
+ 
+Test case (click on close button)
+  a. Visit URL
+  b  click Login button
+  c. click on close button
+
+
+Test case 2 ( Check login function for empty fields):
+  a. Visit URL
+  b. click Login button
+  c. Verify login popup and click on login button
+Expected/exit criteria: alert displaying content of "please enter username and password" must be displayed
+
+Test Case 3 (Check login function for invalid username)  
+ a. Visit URL
+ b. type invalid username
+ c. type correct password and click on login button
+Expected/exit criteria : alert displaying content of "User does not exist" must be displayed
+
+Test case 4 (Check login function for invalid password)
+ a. Visit URL
+ b. type valid username
+ c. type invalid password and click on login button
+Expected/exit criteria: alert displaying content of "Wrong password" must be displayed
+
+Test case 5 (Validate login function for existing user name and password)
+ a. Visit URL
+ b. type valid username
+ c. type valid password and click on login button
+Expected/exit criteria: Succesful login and validate welcome message containing username
+
+Test case 6 (Validate logout function after login)
+ a. Check for logout modal button
+ b. click on logout button
+Expected/exit criteria: Able to logout from website
+
+Note: There is an issues/bug in the website during the login process. When valid username and password is entered and POST request
+is given to validate the details and the process is getting aborted due to failure in XHR network request from the website's API.
+A document containing the issue details is documented seperately.
+ 
+
