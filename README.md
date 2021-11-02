@@ -9,7 +9,7 @@ To install node modules run this command:
 
 ```npm install ```
 
-In order to run the tests in cypress run the following command:
+In order to run the tests in cypress runner run the following command:
 
 ```npx cypress open ```
 
