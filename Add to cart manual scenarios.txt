@@ -1,0 +1,51 @@
+Add product to cart workflow:
+
+Prerequisites:
+1.Complete Login flow (Refer Login flow.txt)
+Note: at times in login page POST option is getting aborted in cypress there are possibilities of flakiness in test
+A document consisting if details is published seperately in word document
+
+The following test cases are written only upto add to cart process and not check out page and payment for orders.
+
+Testcase: (Able to view products according to categories)
+  1. Complete login flow
+  2. Click on different categories
+Expected/exit criteria: able to view products based on categories
+
+Testcase 1: (Able to select the required product)
+   1. Complete login flow
+   2. click on required product 
+Expected/exit criteria: Check page should contain product title
+
+Test case 2: (Able to view product name)
+    1. Complete login flow
+    2. click on required product
+    3. check page should contain product title
+Expected/exit criteria: able to view product name 
+
+Test case 3:  (Able to view product image)
+    1. Complete login flow
+    2. click on required product
+    3. check page should contain product title
+Expected/exit criteria:able to view product image
+
+Test case 4: (Able to view product description)
+   1. Complete login flow
+   2. click on required product
+   3. check page should contain product title
+Expected/exit criteria: check page should contain product description
+
+Test case 4: (Able to view product price)
+   1. Complete login flow
+   2. click on required product
+   3. check page should contain product title
+Expected/exit criteria: able to view product price
+
+Test case 5: (Able to view add to cart)
+     1. Complete login flow
+     2. click on required product
+     3. check page should contain product title
+Expected/exit criteria: click on add to cart and verify "product added" alert
+
+Note: The XHR request for the entries API at demoblaze webiste is failing thus not displaying the products to be displayed for purchase
+Due to which some of the subsequent test steps within the test case might fail. A document containing the issue details is documented seperately.
